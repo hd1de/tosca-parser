@@ -100,7 +100,7 @@ class ParserShell(object):
                     if policy.triggers:
                         print("\ttriggers:")
                         for trigger in policy.triggers:
-                            print("\ttrigger name:" + trigger.name)'''
+                            print("\ttrigger name:" + trigger.name)
         
         # groups
         if hasattr(tosca, 'groups'):
